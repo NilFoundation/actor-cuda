@@ -17,8 +17,8 @@
 
 #include <nil/actor/detail/raw_ptr.hpp>
 
-#include <nil/actor/opencl/device.hpp>
-#include <nil/actor/opencl/global.hpp>
+#include <nil/actor/cuda/device.hpp>
+#include <nil/actor/cuda/global.hpp>
 
 namespace nil {
     namespace actor {

@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include <nil/actor/opencl/actor_facade.hpp>
+#include <nil/actor/cuda/actor_facade.hpp>
 
 namespace nil {
     namespace actor {

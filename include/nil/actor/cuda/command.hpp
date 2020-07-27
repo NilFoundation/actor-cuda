@@ -25,10 +25,10 @@
 #include <nil/actor/detail/raw_ptr.hpp>
 #include <nil/actor/detail/scope_guard.hpp>
 
-#include <nil/actor/opencl/global.hpp>
-#include <nil/actor/opencl/nd_range.hpp>
-#include <nil/actor/opencl/arguments.hpp>
-#include <nil/actor/opencl/opencl_error.hpp>
+#include <nil/actor/cuda/global.hpp>
+#include <nil/actor/cuda/nd_range.hpp>
+#include <nil/actor/cuda/arguments.hpp>
+#include <nil/actor/cuda/opencl_error.hpp>
 
 namespace nil {
     namespace actor {

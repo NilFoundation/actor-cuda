@@ -10,4 +10,4 @@
 
 #pragma once
 
-#include <nil/actor/opencl/manager.hpp>
+#include <nil/actor/cuda/manager.hpp>

@@ -17,7 +17,7 @@
 #include <nil/actor/all.hpp>
 #include <nil/actor/detail/limited_vector.hpp>
 
-#include <nil/actor/opencl/all.hpp>
+#include <nil/actor/cuda/all.hpp>
 
 using namespace std;
 using namespace nil::actor;

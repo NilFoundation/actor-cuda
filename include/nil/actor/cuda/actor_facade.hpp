@@ -23,13 +23,13 @@
 #include <nil/actor/detail/raw_ptr.hpp>
 #include <nil/actor/detail/command_helper.hpp>
 
-#include <nil/actor/opencl/global.hpp>
-#include <nil/actor/opencl/command.hpp>
-#include <nil/actor/opencl/mem_ref.hpp>
-#include <nil/actor/opencl/program.hpp>
-#include <nil/actor/opencl/nd_range.hpp>
-#include <nil/actor/opencl/arguments.hpp>
-#include <nil/actor/opencl/opencl_error.hpp>
+#include <nil/actor/cuda/global.hpp>
+#include <nil/actor/cuda/command.hpp>
+#include <nil/actor/cuda/mem_ref.hpp>
+#include <nil/actor/cuda/program.hpp>
+#include <nil/actor/cuda/nd_range.hpp>
+#include <nil/actor/cuda/arguments.hpp>
+#include <nil/actor/cuda/opencl_error.hpp>
 
 namespace nil {
     namespace actor {

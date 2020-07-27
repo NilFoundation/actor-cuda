@@ -16,7 +16,7 @@
 #include <nil/actor/message.hpp>
 #include <nil/actor/optional.hpp>
 
-#include <nil/actor/opencl/mem_ref.hpp>
+#include <nil/actor/cuda/mem_ref.hpp>
 
 namespace nil {
     namespace actor {

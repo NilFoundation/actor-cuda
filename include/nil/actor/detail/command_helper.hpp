@@ -12,7 +12,7 @@
 
 #include <nil/actor/detail/type_list.hpp>
 
-#include <nil/actor/opencl/command.hpp>
+#include <nil/actor/cuda/command.hpp>
 
 namespace nil {
     namespace actor {

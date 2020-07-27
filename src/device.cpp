@@ -15,9 +15,9 @@
 #include <nil/actor/ref_counted.hpp>
 #include <nil/actor/string_algorithms.hpp>
 
-#include <nil/actor/opencl/global.hpp>
-#include <nil/actor/opencl/device.hpp>
-#include <nil/actor/opencl/opencl_error.hpp>
+#include <nil/actor/cuda/global.hpp>
+#include <nil/actor/cuda/device.hpp>
+#include <nil/actor/cuda/opencl_error.hpp>
 
 namespace nil {
     namespace actor {

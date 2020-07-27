@@ -10,7 +10,7 @@
 
 #pragma once
 
-#include <nil/actor/opencl/global.hpp>
+#include <nil/actor/cuda/global.hpp>
 
 #include <nil/actor/logger.hpp>
 

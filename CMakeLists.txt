@@ -31,9 +31,9 @@ if(NOT Boost_THREAD_FOUND)
     cm_find_package(Boost COMPONENTS thread)
 endif()
 
-cm_find_package(OpenCL REQUIRED)
+cm_find_package(CUDA REQUIRED)
 
-cm_project(opencl WORKSPACE_NAME ${CMAKE_WORKSPACE_NAME} LANGUAGES CXX)
+cm_project(cuda WORKSPACE_NAME ${CMAKE_WORKSPACE_NAME} LANGUAGES CXX)
 
 cm_setup_version(VERSION 0.18.0)
 
@@ -66,14 +66,14 @@ set_target_properties(${CMAKE_WORKSPACE_NAME}_${CURRENT_PROJECT_NAME} PROPERTIES
 target_link_libraries(${CMAKE_WORKSPACE_NAME}_${CURRENT_PROJECT_NAME} PRIVATE
                       ${CMAKE_WORKSPACE_NAME}::core
 
-                      ${OpenCL_LIBRARIES})
+                      ${CUDA_LIBRARIES})
 
 target_include_directories(${CMAKE_WORKSPACE_NAME}_${CURRENT_PROJECT_NAME} PRIVATE
                            $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
                            $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/include>
                            $<BUILD_INTERFACE:${CMAKE_BINARY_DIR}/include>
 
-                           ${OpenCL_INCLUDE_DIRS})
+                           ${CUDA_INCLUDE_DIRS})
 
 cm_deploy(TARGETS ${CMAKE_WORKSPACE_NAME}_${CURRENT_PROJECT_NAME}
           INCLUDE include

@@ -16,7 +16,7 @@
 
 #include <nil/actor/intrusive_ptr.hpp>
 
-#include <nil/actor/opencl/global.hpp>
+#include <nil/actor/cuda/global.hpp>
 
 #define ACTOR_OPENCL_PTR_ALIAS(aliasname, cltype, claddref, clrelease)                          \
     inline void intrusive_ptr_add_ref(cltype ptr) {                                             \

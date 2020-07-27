@@ -12,7 +12,7 @@
 
 #include <nil/actor/ref_counted.hpp>
 
-#include <nil/actor/opencl/device.hpp>
+#include <nil/actor/cuda/device.hpp>
 
 namespace nil {
     namespace actor {

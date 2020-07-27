@@ -12,8 +12,8 @@
 #include <vector>
 #include <iostream>
 
-#include <nil/actor/opencl/platform.hpp>
-#include <nil/actor/opencl/opencl_error.hpp>
+#include <nil/actor/cuda/platform.hpp>
+#include <nil/actor/cuda/opencl_error.hpp>
 
 namespace nil {
     namespace actor {

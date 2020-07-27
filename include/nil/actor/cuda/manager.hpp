@@ -22,11 +22,11 @@
 #include <nil/actor/detail/raw_ptr.hpp>
 #include <nil/actor/detail/spawn_helper.hpp>
 
-#include <nil/actor/opencl/device.hpp>
-#include <nil/actor/opencl/global.hpp>
-#include <nil/actor/opencl/program.hpp>
-#include <nil/actor/opencl/platform.hpp>
-#include <nil/actor/opencl/actor_facade.hpp>
+#include <nil/actor/cuda/device.hpp>
+#include <nil/actor/cuda/global.hpp>
+#include <nil/actor/cuda/program.hpp>
+#include <nil/actor/cuda/platform.hpp>
+#include <nil/actor/cuda/actor_facade.hpp>
 
 namespace nil {
     namespace actor {

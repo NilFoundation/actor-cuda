@@ -8,7 +8,7 @@
 // http://www.boost.org/LICENSE_1_0.txt.
 //---------------------------------------------------------------------------//
 
-#include <nil/actor/opencl/opencl_error.hpp>
+#include <nil/actor/cuda/opencl_error.hpp>
 
 #include <nil/actor/logger.hpp>
 

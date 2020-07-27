@@ -14,9 +14,9 @@
 #include <cstring>
 #include <iostream>
 
-#include <nil/actor/opencl/manager.hpp>
-#include <nil/actor/opencl/program.hpp>
-#include <nil/actor/opencl/opencl_error.hpp>
+#include <nil/actor/cuda/manager.hpp>
+#include <nil/actor/cuda/program.hpp>
+#include <nil/actor/cuda/opencl_error.hpp>
 
 namespace nil {
     namespace actor {

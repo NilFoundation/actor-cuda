@@ -3,10 +3,10 @@
 #include <nil/actor/detail/type_list.hpp>
 #include <nil/actor/raise_error.hpp>
 
-#include <nil/actor/opencl/device.hpp>
-#include <nil/actor/opencl/manager.hpp>
-#include <nil/actor/opencl/platform.hpp>
-#include <nil/actor/opencl/opencl_error.hpp>
+#include <nil/actor/cuda/device.hpp>
+#include <nil/actor/cuda/manager.hpp>
+#include <nil/actor/cuda/platform.hpp>
+#include <nil/actor/cuda/opencl_error.hpp>
 
 namespace nil {
     namespace actor {

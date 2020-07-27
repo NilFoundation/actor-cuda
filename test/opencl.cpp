@@ -21,7 +21,7 @@
 #include <nil/actor/all.hpp>
 #include <nil/actor/system_messages.hpp>
 
-#include <nil/actor/opencl/all.hpp>
+#include <nil/actor/cuda/all.hpp>
 
 using namespace nil::actor;
 using namespace nil::actor::opencl;

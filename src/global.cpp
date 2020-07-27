@@ -11,7 +11,7 @@
 #include <string>
 #include <sstream>
 
-#include <nil/actor/opencl/global.hpp>
+#include <nil/actor/cuda/global.hpp>
 
 cl_int clReleaseDeviceDummy(cl_device_id) {
     return 0;
