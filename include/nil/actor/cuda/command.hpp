@@ -32,7 +32,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             /// A command represents the execution of a kernel on a device. It handles the
             /// OpenCL calls to enqueue the kernel with the index space and keeps references
@@ -219,6 +219,6 @@ namespace nil {
                 message msg_;    // keeps the argument buffers alive for async copy to device
                 nd_range range_;
             };
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

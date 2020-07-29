@@ -10,7 +10,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             optional<device_ptr> manager::find_device(std::size_t dev_id) const {
                 if (platforms_.empty()) {
@@ -171,6 +171,6 @@ namespace nil {
                 // nop
             }
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

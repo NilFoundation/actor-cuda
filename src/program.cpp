@@ -20,7 +20,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             program::program(detail::raw_context_ptr context, detail::raw_command_queue_ptr queue,
                              detail::raw_program_ptr prog,
@@ -33,6 +33,6 @@ namespace nil {
             program::~program() {
                 // nop
             }
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

@@ -33,7 +33,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             class manager;
 
@@ -403,6 +403,6 @@ namespace nil {
                 std::tuple<Ts...> kernel_signature_;
                 size_t default_length_;
             };
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

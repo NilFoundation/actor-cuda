@@ -14,7 +14,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             void throwcl(const char *, cl_int err) {
                 if (err != CL_SUCCESS) {
@@ -27,6 +27,6 @@ namespace nil {
                                 << errinfo << "\n########################################");
                 ACTOR_IGNORE_UNUSED(errinfo);
             }
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

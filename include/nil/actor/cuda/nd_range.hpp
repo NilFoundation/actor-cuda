@@ -14,7 +14,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             class nd_range {
             public:
@@ -58,6 +58,6 @@ namespace nil {
                 opencl::dim_vec local_dims_;
             };
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

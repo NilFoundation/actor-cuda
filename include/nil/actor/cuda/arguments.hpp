@@ -48,7 +48,7 @@ namespace nil {
 
         }    // namespace detail
 
-        namespace opencl {
+        namespace cuda {
 
             // Tag classes to mark arguments received in a messages as reference or value
             /// Arguments tagged as `val` are expected as a vector (or value in case
@@ -484,6 +484,6 @@ namespace nil {
                 using type = out<T>;
             };
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

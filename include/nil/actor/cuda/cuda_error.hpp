@@ -18,7 +18,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             void throwcl(const char *fname, cl_int err);
 
@@ -71,6 +71,6 @@ namespace nil {
                 return result;
             }
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

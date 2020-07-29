@@ -33,7 +33,7 @@ cl_int clRetainDeviceDummy(cl_device_id);
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             enum device_type {
                 def = CL_DEVICE_TYPE_DEFAULT,
@@ -63,6 +63,6 @@ namespace nil {
 
             std::string event_status(cl_event event);
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

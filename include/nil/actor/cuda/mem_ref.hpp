@@ -21,7 +21,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             // Tag to separate mem_refs from other types in messages.
             struct ref_tag {};
@@ -172,7 +172,7 @@ namespace nil {
                 detail::raw_event_ptr event_;
             };
 
-        }    // namespace opencl
+        }    // namespace cuda
 
         template<class T>
         struct allowed_unsafe_message_type<opencl::mem_ref<T>> : std::true_type {};

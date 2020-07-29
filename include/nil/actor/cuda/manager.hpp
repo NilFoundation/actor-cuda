@@ -30,7 +30,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             class manager : public spawner_module {
             public:
@@ -245,6 +245,6 @@ namespace nil {
                 std::vector<platform_ptr> platforms_;
             };
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

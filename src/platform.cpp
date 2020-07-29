@@ -17,7 +17,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             platform_ptr platform::create(cl_platform_id platform_id, unsigned start_id) {
                 std::vector<unsigned> device_types = {CL_DEVICE_TYPE_GPU, CL_DEVICE_TYPE_ACCELERATOR,
@@ -76,6 +76,6 @@ namespace nil {
             platform::~platform() {
                 // nop
             }
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

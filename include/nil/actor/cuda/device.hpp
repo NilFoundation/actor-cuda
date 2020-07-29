@@ -21,7 +21,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             class program;
 
@@ -346,6 +346,6 @@ namespace nil {
                 return name_;
             }
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

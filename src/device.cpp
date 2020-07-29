@@ -21,7 +21,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             device_ptr device::create(const detail::raw_context_ptr &context, const detail::raw_device_ptr &device_id,
                                       unsigned id) {
@@ -95,6 +95,6 @@ namespace nil {
                 // nop
             }
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

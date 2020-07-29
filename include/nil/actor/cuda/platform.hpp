@@ -16,7 +16,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             class platform;
 
@@ -75,6 +75,6 @@ namespace nil {
                 return version_;
             }
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

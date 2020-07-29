@@ -23,7 +23,7 @@ cl_int clRetainDeviceDummy(cl_device_id) {
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             std::ostream &operator<<(std::ostream &os, device_type dev) {
                 switch (dev) {
@@ -298,6 +298,6 @@ namespace nil {
                 return ss.str();
             }
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil

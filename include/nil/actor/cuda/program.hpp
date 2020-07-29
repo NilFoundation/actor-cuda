@@ -22,7 +22,7 @@
 
 namespace nil {
     namespace actor {
-        namespace opencl {
+        namespace cuda {
 
             class program;
 
@@ -51,6 +51,6 @@ namespace nil {
                 std::map<std::string, detail::raw_kernel_ptr> available_kernels_;
             };
 
-        }    // namespace opencl
+        }    // namespace cuda
     }        // namespace actor
 }    // namespace nil
