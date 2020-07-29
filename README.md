@@ -1,4 +1,4 @@
-OpenCL Actors
+CUDA Actors
 =============
 
-This module eases the use of OpenCL with =nil; Actor.
+This module eases the use of CUDA with =nil; Actor.

@@ -31,7 +31,7 @@ if(NOT Boost_THREAD_FOUND)
     cm_find_package(Boost COMPONENTS thread)
 endif()
 
-cm_find_package(CUDA)
+cm_find_package(CUDA REQUIRED)
 
 cm_project(cuda WORKSPACE_NAME ${CMAKE_WORKSPACE_NAME} LANGUAGES CXX)
 
