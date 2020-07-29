@@ -41,7 +41,7 @@ cm_setup_version(VERSION 0.18.0)
 # e.g., for creating proper Xcode projects
 file(GLOB_RECURSE ${CURRENT_PROJECT_NAME}_HEADERS "include/nil/actor/*.hpp")
 
-add_custom_target(opencl)
+add_custom_target(cuda)
 
 # list cpp files excluding platform-dependent files
 set(${CURRENT_PROJECT_NAME}_SOURCES
@@ -55,7 +55,7 @@ set(${CURRENT_PROJECT_NAME}_SOURCES
 add_library(${CMAKE_WORKSPACE_NAME}_${CURRENT_PROJECT_NAME}
             ${${CURRENT_PROJECT_NAME}_HEADERS}
             ${${CURRENT_PROJECT_NAME}_SOURCES}
-            ${OpenCL_INCLUDE_DIRS})
+            ${CUDA_INCLUDE_DIRS})
 
 set_target_properties(${CMAKE_WORKSPACE_NAME}_${CURRENT_PROJECT_NAME} PROPERTIES
                       LINKER_LANGUAGE CXX
