@@ -27,11 +27,20 @@ macro(cm_find_package NAME)
     endif()
 endmacro()
 
+option(BUILD_WITH_CUDA "Build with CUDA toolkit support" TRUE)
+
+if(BUILD_WITH_CUDA)
+    cm_find_package(CUDA REQUIRED)
+else()
+    cm_find_package(CUDA)
+    if(NOT CUDA_FOUND)
+        return()
+    endif()
+endif()
+
 if(NOT Boost_THREAD_FOUND)
     cm_find_package(Boost COMPONENTS thread)
 endif()
-
-cm_find_package(CUDA REQUIRED)
 
 cm_project(cuda WORKSPACE_NAME ${CMAKE_WORKSPACE_NAME} LANGUAGES CXX)
 
