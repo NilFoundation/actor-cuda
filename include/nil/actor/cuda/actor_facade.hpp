@@ -1,6 +1,5 @@
 //---------------------------------------------------------------------------//
-// Copyright (c) 2011-2019 Dominik Charousset
-// Copyright (c) 2018-2020 Mikhail Komarov <nemo@nil.foundation>
+// Copyright (c) 2020 Mikhail Komarov <nemo@nil.foundation>
 //
 // Distributed under the terms and conditions of the BSD 3-Clause License or
 // (at your option) under the terms and conditions of the Boost Software
@@ -65,7 +64,7 @@ namespace nil {
                 using out_tup = typename detail::tuple_type_of<output_types>::type;
 
                 const char *name() const override {
-                    return "OpenCL actor";
+                    return "CUDA actor";
                 }
 
                 static actor create(actor_config actor_conf, const program_ptr prog, const char *kernel_name,
