@@ -16,7 +16,7 @@
 
 #include <nil/actor/config.hpp>
 
-#if defined(BOOST_OS_MACOS) || defined(BOOST_OS_IOS)
+#if defined(BOOST_OS_MACOS_AVAILABLE) || defined(BOOST_OS_IOS_AVAILABLE)
 
 #include <OpenCL/opencl.h>
 

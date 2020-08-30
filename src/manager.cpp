@@ -128,7 +128,7 @@ namespace nil {
                         // seems that just apple implemented the
                         // pfn_notify callback, but we can get
                         // the build log
-#ifndef ACTOR_MACOS
+#ifndef BOOST_OS_MACOS_AVAILABLE
                         ACTOR_LOG_ERROR(ACTOR_ARG(ss.str()));
 #endif
                     }
